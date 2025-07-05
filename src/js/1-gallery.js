@@ -67,13 +67,6 @@ const images = [
     },
 ];
   
-const container = document.querySelector(".container");
-console.log(container);
-
-
-const newUl = document.createElement("ul");
-newUl.classList.add("gallery");
-container.append(newUl);
 
 const gallery = document.querySelector(".gallery");
 
